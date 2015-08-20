@@ -19,3 +19,19 @@ MVP
 ---
 * When page is loaded, keep spoilers (already hardcoded in the page) hidden.
 * Viewer has to click on a button to show all the spoilers.
+
+Local Installation
+------------------
+
+In your terminal, change into a directory that you want this project to be in:
+
+```
+$ git clone https://github.com/ashleigh090990/spoiler-review
+$ cd spoiler-review
+```
+Open the page in a browser:
+
+```
+$ open index.html
+```
+It's not too fancy now, but if you clicking on the button, the spoilers will show ;)
