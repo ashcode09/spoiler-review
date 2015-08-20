@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <head>
+  <title>Spoiler Revealer</title>
 </head>
 <body>
-  
+  <h1>Spoiler Revealer</h1>
+
+  <span class="spoiler">There is a spoiler hidden here!</span>
+  <span>No spoiler here...</span>
+  <span>Nope. Just some more words.</span>
+  <span class="spoiler">Yes, there's also one here!</span>
+  <span>But not here!</span>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="app.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    $(".spoiler").hide();
+  </script>
 </body>
 </html>
