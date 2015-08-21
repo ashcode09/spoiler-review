@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <head>
   <title>Spoiler Revealer</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href="public/spoilerStyle.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <h1>Spoiler Revealer</h1>
 
-  <span class="spoiler">There is a spoiler hidden here!</span>
-  <span>No spoiler here...</span>
-  <span>Nope. Just some more words.</span>
-  <span class="spoiler">Yes, there's also one here!</span>
-  <span>But not here!</span>
+  <h1 class="genericBorder">Spoiler Revealer</h1>
 
-  <button id="spoilerButton">Show Spoiler</button>
+  <form>
+    <input type="text" placeholder="Type in your spoiler here...">
+    <input class="spoilerButton genericBorder" id="addSpoiler" type="button" value="Add Spoiler">
+  </form>
+
+  <div class="containingDiv">
+    <div class="genericBorder eachDiv"><span class="spoiler">There is a spoiler hidden here!</span></div>
+    <div class="genericBorder eachDiv"><span class="spoiler">No spoiler here...</span></div>
+    <div class="genericBorder eachDiv"><span class="spoiler">Nope. Just some more words.</span></div>
+    <div class="genericBorder eachDiv"><span class="spoiler">Yes, there's also one here!</span></div>
+    <div class="genericBorder eachDiv"><span class="spoiler">But not here!</span></div>
+  </div>
 
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="app.js" type="text/javascript"></script>
